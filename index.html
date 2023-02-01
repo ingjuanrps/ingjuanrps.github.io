@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style_2.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            
+            <img  class="Imglogo" src="imagenes/logo.png" alt="Logo Alura">
+            <h1 class="title">Encriptador de Mensajes</h1>
+        </div>
+    </header>
+
+
+
+
+    <main class="main">
+
+        <section class="left">
+            <label for="input-texto">Ingresa tu texto a criptar</label>
+            <input class="text-input" name="input-texto" id="input-texto" type="text" placeholder="Ingrese el texto aqui" required>
+        </section>
+
+        <section class="right">
+            <img id="imgright" src="imagenes/Muñeco.png" alt="Muñeco con lupa">
+            <h1 id="texto">Ningun texto fue encontrado</h1>
+            <textarea  name="" id="texto2" cols="30" rows="10">Este es su texto Encriptado: </textarea>
+            <button id="copiar" type="button" name="button" onclick="copiar()">Copiar</button>
+            
+
+        </section>
+
+        <section class="left-botton">
+            <!-- <h1>Van unos botones</h1> -->
+            <p>Solo minusculas y sin acentos</p>
+            <button type="button" name="" id="boton-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" name="" id="boton-desencriptar" onclick="desencriptar()">Desencriptar</button>
+            
+        </section>
+
+    </main>
+
+    <footer>
+       
+           <p class="copyright"> &copy Copiright Juan Ramón Perales Sosa 2023 </p>
+   </footer>
+</body>
+</html>
